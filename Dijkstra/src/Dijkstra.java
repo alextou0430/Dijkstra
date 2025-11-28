@@ -106,22 +106,22 @@ public class Dijkstra {
 	
 	public static void main(String[] args) {
 		Graph g1 = new Graph(8);
-//		g1.insertEdge(g1.getNode(0), g1.getNode(1), 1);
-//		g1.insertEdge(g1.getNode(0), g1.getNode(2), 4);
-//		g1.insertEdge(g1.getNode(0), g1.getNode(3), 2);
-//		g1.insertEdge(g1.getNode(1), g1.getNode(2), 1);
-//		g1.insertEdge(g1.getNode(1), g1.getNode(4), 3);
-//		g1.insertEdge(g1.getNode(2), g1.getNode(4), 1);
-//		g1.insertEdge(g1.getNode(2), g1.getNode(5), 3);
-//		g1.insertEdge(g1.getNode(2), g1.getNode(3), 2);
-//		g1.insertEdge(g1.getNode(3), g1.getNode(6), 1);
-//		g1.insertEdge(g1.getNode(4), g1.getNode(7), 1);
-//		g1.insertEdge(g1.getNode(5), g1.getNode(7), 1);
-//		g1.insertEdge(g1.getNode(5), g1.getNode(6), 2);
-//		g1.insertEdge(g1.getNode(6), g1.getNode(7), 4);
+		g1.insertEdge(g1.getNode(0), g1.getNode(1), 1);
+		g1.insertEdge(g1.getNode(0), g1.getNode(2), 4);
+		g1.insertEdge(g1.getNode(0), g1.getNode(3), 2);
+		g1.insertEdge(g1.getNode(1), g1.getNode(2), 1);
+		g1.insertEdge(g1.getNode(1), g1.getNode(4), 3);
+		g1.insertEdge(g1.getNode(2), g1.getNode(4), 1);
+		g1.insertEdge(g1.getNode(2), g1.getNode(5), 3);
+		g1.insertEdge(g1.getNode(2), g1.getNode(3), 2);
+		g1.insertEdge(g1.getNode(3), g1.getNode(6), 1);
+		g1.insertEdge(g1.getNode(4), g1.getNode(7), 1);
+		g1.insertEdge(g1.getNode(5), g1.getNode(7), 1);
+		g1.insertEdge(g1.getNode(5), g1.getNode(6), 2);
+		g1.insertEdge(g1.getNode(6), g1.getNode(7), 4);
 		System.out.println(g1);
-//		Dijkstra d1 = new Dijkstra(g1);
-//		d1.shortestPath(g1.getNode(0), g1.getNode(7));
+		Dijkstra d1 = new Dijkstra(g1);
+		d1.shortestPath(g1.getNode(0), g1.getNode(7));
 	}
 
 }
